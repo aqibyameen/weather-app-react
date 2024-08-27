@@ -17,7 +17,7 @@ const App = () => {
 });
   useEffect(()=>{
     setLoading(true);
-    axios.get(`http://api.weatherapi.com/v1/current.json?key=140dcbfd7ab84055b3882412242306&q=${location}&aqi=no`).then((res)=>{
+    axios.get(`https://api.weatherapi.com/v1/current.json?key=140dcbfd7ab84055b3882412242306&q=${location}&aqi=no`).then((res)=>{
       console.log(res.data);
       setRes(res.data);
       setLoading(false);
