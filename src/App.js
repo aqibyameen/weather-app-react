@@ -9,7 +9,7 @@ import Footer from './component/Footer';
 import Spinner from './component/Spinner';
 
 const App = () => {
-  const [location,setLoction]=useState('karachi');
+  const [location,setLoction]=useState('Islamabad');
   const [loading ,setLoading]=useState(true);
 
   const [response,setRes]=useState({
